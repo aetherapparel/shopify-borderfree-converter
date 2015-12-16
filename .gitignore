@@ -1,0 +1,5 @@
+# ignore compiled byte code
+*.py[cod]
+
+#ignore the test.csv file being created.
+test.txt

@@ -7,3 +7,7 @@ Obviously the variables and the formatting are specific to our specific case.
 
 I'm sharing this in hopes that someone can use it to save some time in their own 
 implementation.
+
+Example usage:
+
+./create_bf_catalog.py --input_file products_from_shopify.csv --output_file borderfree_catalog.csv

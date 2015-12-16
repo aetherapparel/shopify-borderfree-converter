@@ -72,8 +72,9 @@ def main(argv):
       previous_Description = Description
 
       # Format product tags to 
-      tags = the_tags.strip(' \t\n\r').lower().replace(" ", "")
+      tags = Tags.strip(' \t\n\r').lower().replace(" ", "")
 
+      print title + ' ' + tags 
       # setup the tag_string
       if 'gear' not in tags or 'doa' not in tags:
         tag_string = ''
@@ -107,7 +108,7 @@ def main(argv):
         elif 'archive' in tags:
           tag_string += ' > Sale'
         else:
-          print title " doesn't have a style tag?"
+          print title + " doesn't have a style tag?"
 
       else:
         tag_string = ''

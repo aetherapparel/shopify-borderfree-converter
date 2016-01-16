@@ -10,4 +10,5 @@ implementation.
 
 Example usage:
 ```
-./create_bf_catalog.py --input_file products_from_shopify.csv --output_file borderfree_catalog.csv```
+./create_bf_catalog.py --input_file products_from_shopify.csv --output_file borderfree_catalog.csv
+```
